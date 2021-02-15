@@ -26,11 +26,11 @@ const Footer = (props) => {
                         <h2>Word by AWS</h2>
                         <div className="media">
                             <div className="pull-left">
-                                <a href="#"><img src="images/home/profile2.jpg"  alt="" /></a>
+                                <a href="#"><img src="images/home/profile1.jpg"  alt="" /></a>
                             </div>
                             <div className="media-body">
-                                <blockquote>What Can I do With AWS?</blockquote>
-                                <h3><a href="#">- Some Random Dude</a></h3>
+                                <blockquote>If you do build a great experience, customers tell each other about that. Word of mouth is very powerful.</blockquote>
+                                <h3><a href="#">- Jeff Bezos</a></h3>
                             </div>
                          </div>
                         <div className="media">
@@ -38,8 +38,8 @@ const Footer = (props) => {
                                 <a href="#"><img src="images/home/profile2.jpg" alt="" /></a>
                             </div>
                             <div className="media-body">
-                                <blockquote>What Can I do With AWS?</blockquote>
-                                <h3><a href="">- Some Random Dude</a></h3>
+                                <blockquote>Relentless Innovation</blockquote>
+                                <h3><a href="">- Andy Jassy</a></h3>
                             </div>
                         </div>   
                     </div> 
@@ -50,14 +50,14 @@ const Footer = (props) => {
                     <div className="contact-info bottom">
                         <h2>Contacts</h2>
                         <address>
-                        E-mail: <a href="mailto:awscloudcommunity@email.com">awscloudcommunity@email.com</a> <br /> 
-                        Phone: 123456789 <br /> 
+                        E-mail: <a href="mailto:awscloudcommunity@email.com">awscloudcommunity@gmail.com</a> <br /> 
+                        Phone: 8017874250 <br /> 
                         
                         </address>
 
                         <h2>Address</h2>
                         <address>
-                       Should we put adress?
+                        Jalandhar - Delhi, Grand Trunk Rd, <br />Phagwara, Punjab 144001
                         </address>
                     </div>
                 </div>
