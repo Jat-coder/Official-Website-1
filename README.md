@@ -23,9 +23,9 @@ npm start
 **4. :tada: Open your browser and go to `https://localhost:3000`**
 
 **5. To publish and test on your own domain:**
-'''
+```bash
 npm run build
-...
+```
 
 ## :page_facing_up: License
 [MIT](./LICENSE) © AWS Cloud Community LPU
