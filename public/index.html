@@ -10,7 +10,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet"> 
     <link href="css/lightbox.css" rel="stylesheet"> 
-	<link href="css/main.css" rel="stylesheet">
+	
 	<link href="css/responsive.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
@@ -22,6 +22,13 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet"> 
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
     <meta
       name="description"
       content="Web site created using create-react-app"
@@ -42,8 +49,35 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>AWS</title>
+    <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
+  <form name="contact-form" netlify netlify-honeypot="bot-field" action="/" hidden>
+                            <div className="form-group">
+                                <input type="text" name="name" className="form-control" required="required"  />
+                            </div>
+                            <div className="form-group">
+                                <input type="email" name="email" className="form-control" required="required" />
+                            </div>
+                            <div className="form-group">
+                                <textarea type="tel" name="phonenumber" id="phone" required="required" className="form-control"  ></textarea>
+                            </div>   
+                            <div className="form-group">
+                                <textarea name="UniversityName"  required="required" className="form-control" ></textarea>
+                            </div> 
+                            <div className="form-group">
+                                <textarea name="CurrentYear"  required="required" className="form-control" ></textarea>
+                            </div> 
+                            <div className="form-group">
+                                <textarea name="WhyJoin" id="message" required="required" className="form-control" rows="8" ></textarea>
+                            </div> 
+                            <div className="form-group">
+                                <textarea name="Field"  required="required" className="form-control"  ></textarea>
+                            </div>                      
+                            <div className="form-group">
+                                <input type="submit" name="submit" className="btn btn-submit" value="Submit"/>
+                            </div>
+                        </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -61,6 +95,7 @@
     <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script> 
+    <script type="text/javascript" src="js/new.js"></script>
   </body>
 
 </html>
