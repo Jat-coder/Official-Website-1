@@ -2928,6 +2928,7 @@ span.stButton_gradient,
       padding-left: 10px;
       
     }
-  
-  
- 
+.navbar-nav
+{
+  margin-top: 30px;
+}
